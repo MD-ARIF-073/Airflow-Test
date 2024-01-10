@@ -10,10 +10,10 @@ default_args = {
 }
 
 with DAG(
-    dag_id='dag_with_cron_expression_v04',
+    dag_id='dag_with_cron_expression_v05',
     default_args=default_args,
     start_date=datetime(2024, 1, 1),  # Use datetime object
-    schedule='0 4 * * Wed-Fri'  #  airflow cron preset
+    schedule='0 8 * * Tue-Fri'  #  airflow cron preset
 ) as dag:
     task1 = BashOperator(
         task_id = 'task1',
