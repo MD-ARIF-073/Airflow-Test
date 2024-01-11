@@ -1,0 +1,17 @@
+[2024-01-11T11:39:50.528+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_cron_expression_v06.task1 manual__2024-01-11T11:39:45.403894+00:00 [queued]>
+[2024-01-11T11:39:50.566+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_cron_expression_v06.task1 manual__2024-01-11T11:39:45.403894+00:00 [queued]>
+[2024-01-11T11:39:50.567+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 6
+[2024-01-11T11:39:50.630+0000] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): task1> on 2024-01-11 11:39:45.403894+00:00
+[2024-01-11T11:39:50.658+0000] {standard_task_runner.py:60} INFO - Started process 63094 to run task
+[2024-01-11T11:39:50.653+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_with_cron_expression_v06', 'task1', 'manual__2024-01-11T11:39:45.403894+00:00', '--job-id', '16784', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_cron_expression.py', '--cfg-path', '/tmp/tmp57md4n68']
+[2024-01-11T11:39:50.661+0000] {standard_task_runner.py:88} INFO - Job 16784: Subtask task1
+[2024-01-11T11:39:50.787+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_with_cron_expression_v06.task1 manual__2024-01-11T11:39:45.403894+00:00 [running]> on host d3b0837e9e03
+[2024-01-11T11:39:51.010+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='arif' AIRFLOW_CTX_DAG_ID='dag_with_cron_expression_v06' AIRFLOW_CTX_TASK_ID='task1' AIRFLOW_CTX_EXECUTION_DATE='2024-01-11T11:39:45.403894+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-11T11:39:45.403894+00:00'
+[2024-01-11T11:39:51.019+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-01-11T11:39:51.020+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo hello world! This is Arif Ishtiaq talking to apache ***!']
+[2024-01-11T11:39:51.050+0000] {subprocess.py:86} INFO - Output:
+[2024-01-11T11:39:51.064+0000] {subprocess.py:93} INFO - hello world! This is Arif Ishtiaq talking to apache ***!
+[2024-01-11T11:39:51.066+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-01-11T11:39:51.113+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_with_cron_expression_v06, task_id=task1, execution_date=20240111T113945, start_date=20240111T113950, end_date=20240111T113951
+[2024-01-11T11:39:51.161+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-11T11:39:51.220+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

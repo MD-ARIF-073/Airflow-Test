@@ -5873,3 +5873,870 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 [2024-01-10T12:49:45.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
 [2024-01-10T12:49:45.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.040 seconds
+[2024-01-10T12:50:16.315+0000] {processor.py:161} INFO - Started process (PID=49078) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:50:16.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:50:16.319+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:50:16.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:50:16.322+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:50:16.321+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:50:16.322+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:50:16.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.035 seconds
+[2024-01-10T12:50:46.491+0000] {processor.py:161} INFO - Started process (PID=49138) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:50:46.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:50:46.493+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:50:46.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:50:46.498+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:50:46.497+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:50:46.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:50:46.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.040 seconds
+[2024-01-10T12:51:16.818+0000] {processor.py:161} INFO - Started process (PID=49199) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:51:16.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:51:16.821+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:51:16.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:51:16.823+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:51:16.822+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:51:16.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:51:16.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.030 seconds
+[2024-01-10T12:51:47.205+0000] {processor.py:161} INFO - Started process (PID=49260) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:51:47.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:51:47.206+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:51:47.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:51:47.210+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:51:47.209+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:51:47.210+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:51:47.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.034 seconds
+[2024-01-10T12:52:17.613+0000] {processor.py:161} INFO - Started process (PID=49321) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:52:17.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:52:17.615+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:52:17.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:52:17.619+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:52:17.618+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:52:17.619+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:52:17.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.038 seconds
+[2024-01-10T12:52:48.027+0000] {processor.py:161} INFO - Started process (PID=49382) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:52:48.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:52:48.029+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:52:48.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:52:48.032+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:52:48.031+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:52:48.033+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:52:48.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.034 seconds
+[2024-01-10T12:53:18.264+0000] {processor.py:161} INFO - Started process (PID=49443) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:53:18.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:53:18.268+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:53:18.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:53:18.271+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:53:18.270+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:53:18.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:53:18.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.039 seconds
+[2024-01-10T12:53:48.734+0000] {processor.py:161} INFO - Started process (PID=49504) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:53:48.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:53:48.737+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:53:48.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:53:48.740+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:53:48.739+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:53:48.741+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:53:48.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.037 seconds
+[2024-01-10T12:54:19.206+0000] {processor.py:161} INFO - Started process (PID=49565) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:54:19.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:54:19.209+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:54:19.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:54:19.213+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:54:19.212+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:54:19.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:54:19.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.037 seconds
+[2024-01-10T12:54:49.343+0000] {processor.py:161} INFO - Started process (PID=49627) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:54:49.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:54:49.346+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:54:49.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:54:49.352+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:54:49.350+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:54:49.352+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:54:49.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.052 seconds
+[2024-01-10T12:55:19.767+0000] {processor.py:161} INFO - Started process (PID=49688) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:55:19.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:55:19.770+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:55:19.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:55:19.774+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:55:19.773+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:55:19.774+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:55:19.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.041 seconds
+[2024-01-10T12:55:50.038+0000] {processor.py:161} INFO - Started process (PID=49749) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:55:50.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:55:50.042+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:55:50.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:55:50.045+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:55:50.044+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:55:50.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:55:50.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.037 seconds
+[2024-01-10T12:56:20.177+0000] {processor.py:161} INFO - Started process (PID=49810) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:56:20.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:56:20.180+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:56:20.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:56:20.184+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:56:20.183+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:56:20.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:56:20.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.037 seconds
+[2024-01-10T12:56:50.436+0000] {processor.py:161} INFO - Started process (PID=49871) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:56:50.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:56:50.438+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:56:50.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:56:50.441+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:56:50.440+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:56:50.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:56:50.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.030 seconds
+[2024-01-10T12:57:20.655+0000] {processor.py:161} INFO - Started process (PID=49932) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:57:20.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:57:20.657+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:57:20.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:57:20.661+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:57:20.660+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:57:20.661+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:57:20.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.039 seconds
+[2024-01-10T12:57:50.845+0000] {processor.py:161} INFO - Started process (PID=49993) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:57:50.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:57:50.849+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:57:50.849+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:57:50.853+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:57:50.852+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:57:50.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:57:50.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.038 seconds
+[2024-01-10T12:58:21.208+0000] {processor.py:161} INFO - Started process (PID=50054) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:58:21.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:58:21.211+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:58:21.210+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:58:21.215+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:58:21.214+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:58:21.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:58:21.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.040 seconds
+[2024-01-10T12:58:51.600+0000] {processor.py:161} INFO - Started process (PID=50115) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:58:51.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:58:51.604+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:58:51.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:58:51.608+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:58:51.607+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:58:51.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:58:51.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.039 seconds
+[2024-01-10T12:59:21.974+0000] {processor.py:161} INFO - Started process (PID=50177) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:59:21.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:59:21.977+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:59:21.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:59:21.980+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:59:21.979+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:59:21.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:59:22.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.036 seconds
+[2024-01-10T12:59:52.030+0000] {processor.py:161} INFO - Started process (PID=50238) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:59:52.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T12:59:52.032+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:59:52.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:59:52.036+0000] {logging_mixin.py:188} INFO - [2024-01-10T12:59:52.034+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T12:59:52.037+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T12:59:52.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.033 seconds
+[2024-01-10T13:00:22.269+0000] {processor.py:161} INFO - Started process (PID=50297) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:00:22.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:00:22.273+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:00:22.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:00:22.276+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:00:22.275+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:00:22.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:00:22.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.039 seconds
+[2024-01-10T13:00:53.307+0000] {processor.py:161} INFO - Started process (PID=50357) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:00:53.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:00:53.309+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:00:53.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:00:53.311+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:00:53.311+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:00:53.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:00:53.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.032 seconds
+[2024-01-10T13:01:23.511+0000] {processor.py:161} INFO - Started process (PID=50418) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:01:23.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:01:23.514+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:01:23.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:01:23.518+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:01:23.517+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:01:23.519+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:01:23.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.039 seconds
+[2024-01-10T13:01:53.629+0000] {processor.py:161} INFO - Started process (PID=50479) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:01:53.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:01:53.633+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:01:53.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:01:53.638+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:01:53.636+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:01:53.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:01:53.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.042 seconds
+[2024-01-10T13:02:23.905+0000] {processor.py:161} INFO - Started process (PID=50540) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:02:23.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:02:23.908+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:02:23.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:02:23.914+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:02:23.912+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:02:23.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:02:23.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.041 seconds
+[2024-01-10T13:02:54.061+0000] {processor.py:161} INFO - Started process (PID=50600) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:02:54.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:02:54.065+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:02:54.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:02:54.069+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:02:54.068+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:02:54.070+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:02:54.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.036 seconds
+[2024-01-10T13:03:24.175+0000] {processor.py:161} INFO - Started process (PID=50661) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:03:24.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:03:24.177+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:03:24.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:03:24.181+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:03:24.180+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:03:24.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:03:24.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.034 seconds
+[2024-01-10T13:03:54.563+0000] {processor.py:161} INFO - Started process (PID=50723) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:03:54.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:03:54.567+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:03:54.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:03:54.571+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:03:54.570+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:03:54.571+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:03:54.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.039 seconds
+[2024-01-10T13:04:24.896+0000] {processor.py:161} INFO - Started process (PID=50784) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:04:24.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:04:24.898+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:04:24.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:04:24.900+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:04:24.899+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:04:24.901+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:04:24.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.028 seconds
+[2024-01-10T13:04:55.461+0000] {processor.py:161} INFO - Started process (PID=50845) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:04:55.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:04:55.465+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:04:55.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:04:55.468+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:04:55.467+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:04:55.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:04:55.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.035 seconds
+[2024-01-10T13:05:26.178+0000] {processor.py:161} INFO - Started process (PID=50906) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:05:26.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:05:26.181+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:05:26.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:05:26.185+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:05:26.184+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:05:26.186+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:05:26.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.040 seconds
+[2024-01-10T13:05:56.418+0000] {processor.py:161} INFO - Started process (PID=50967) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:05:56.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:05:56.423+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:05:56.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:05:56.431+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:05:56.428+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:05:56.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:05:56.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.054 seconds
+[2024-01-10T13:06:27.046+0000] {processor.py:161} INFO - Started process (PID=51028) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:06:27.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:06:27.048+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:06:27.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:06:27.052+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:06:27.051+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:06:27.052+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:06:27.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.035 seconds
+[2024-01-10T13:06:57.318+0000] {processor.py:161} INFO - Started process (PID=51089) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:06:57.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:06:57.321+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:06:57.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:06:57.324+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:06:57.323+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:06:57.324+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:06:57.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.031 seconds
+[2024-01-10T13:07:27.891+0000] {processor.py:161} INFO - Started process (PID=51150) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:07:27.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:07:27.893+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:07:27.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:07:27.896+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:07:27.895+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:07:27.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:07:27.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.031 seconds
+[2024-01-10T13:07:58.210+0000] {processor.py:161} INFO - Started process (PID=51210) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:07:58.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:07:58.213+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:07:58.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:07:58.218+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:07:58.217+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:07:58.218+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:07:58.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.036 seconds
+[2024-01-10T13:08:28.671+0000] {processor.py:161} INFO - Started process (PID=51270) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:08:28.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:08:28.675+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:08:28.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:08:28.678+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:08:28.677+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:08:28.679+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:08:28.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.044 seconds
+[2024-01-10T13:08:58.845+0000] {processor.py:161} INFO - Started process (PID=51331) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:08:58.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:08:58.847+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:08:58.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:08:58.850+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:08:58.849+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:08:58.851+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:08:58.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.032 seconds
+[2024-01-10T13:09:29.508+0000] {processor.py:161} INFO - Started process (PID=51392) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:09:29.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:09:29.512+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:09:29.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:09:29.515+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:09:29.514+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:09:29.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:09:29.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.034 seconds
+[2024-01-10T13:09:59.785+0000] {processor.py:161} INFO - Started process (PID=51453) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:09:59.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:09:59.790+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:09:59.789+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:09:59.794+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:09:59.793+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:09:59.795+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:09:59.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.053 seconds
+[2024-01-10T13:10:30.485+0000] {processor.py:161} INFO - Started process (PID=51514) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:10:30.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:10:30.489+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:10:30.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:10:30.495+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:10:30.493+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:10:30.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:10:30.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.048 seconds
+[2024-01-10T13:11:00.784+0000] {processor.py:161} INFO - Started process (PID=51575) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:11:00.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:11:00.786+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:11:00.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:11:00.791+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:11:00.790+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:11:00.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:11:00.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.050 seconds
+[2024-01-10T13:11:31.186+0000] {processor.py:161} INFO - Started process (PID=51635) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:11:31.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:11:31.190+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:11:31.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:11:31.194+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:11:31.193+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:11:31.195+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:11:31.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.041 seconds
+[2024-01-10T13:12:01.351+0000] {processor.py:161} INFO - Started process (PID=51696) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:12:01.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:12:01.352+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:12:01.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:12:01.355+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:12:01.354+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:12:01.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:12:01.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.027 seconds
+[2024-01-10T13:12:31.595+0000] {processor.py:161} INFO - Started process (PID=51758) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:12:31.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:12:31.599+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:12:31.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:12:31.602+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:12:31.601+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:12:31.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:12:31.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.037 seconds
+[2024-01-10T13:13:01.869+0000] {processor.py:161} INFO - Started process (PID=51819) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:13:01.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:13:01.870+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:13:01.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:13:01.873+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:13:01.872+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:13:01.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:13:01.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.030 seconds
+[2024-01-10T13:13:32.544+0000] {processor.py:161} INFO - Started process (PID=51879) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:13:32.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:13:32.548+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:13:32.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:13:32.550+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:13:32.550+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:13:32.551+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:13:32.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.029 seconds
+[2024-01-10T13:14:02.755+0000] {processor.py:161} INFO - Started process (PID=51940) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:14:02.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:14:02.758+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:14:02.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:14:02.762+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:14:02.761+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:14:02.762+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:14:02.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.033 seconds
+[2024-01-10T13:14:32.957+0000] {processor.py:161} INFO - Started process (PID=52001) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:14:32.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:14:32.960+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:14:32.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:14:32.962+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:14:32.962+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:14:32.963+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:14:32.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.030 seconds
+[2024-01-10T13:15:03.225+0000] {processor.py:161} INFO - Started process (PID=52062) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:15:03.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:15:03.228+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:15:03.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:15:03.232+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:15:03.231+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:15:03.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:15:03.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.036 seconds
+[2024-01-10T13:15:33.684+0000] {processor.py:161} INFO - Started process (PID=52123) to work on /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:15:33.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_email_notification.py for tasks to queue
+[2024-01-10T13:15:33.687+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:15:33.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:15:33.690+0000] {logging_mixin.py:188} INFO - [2024-01-10T13:15:33.689+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_with_email_notification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_with_email_notification.py", line 1
+    /#from datetime import datetime, timedelta
+    ^
+SyntaxError: invalid syntax
+[2024-01-10T13:15:33.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_with_email_notification.py
+[2024-01-10T13:15:33.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_email_notification.py took 0.033 seconds
